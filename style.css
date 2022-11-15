@@ -834,7 +834,6 @@ h2,title h2 {
     cursor: pointer;
     display: none;
     padding: 10px;
-    background-color: #1887F2;
 }
 .slidebar-left {
     display: flex;
@@ -875,29 +874,26 @@ h2,title h2 {
     transform: translateX(0);
 }
 
-.left-to-right .list-menu-down li {
-    padding: 10px 0px;
-    border-bottom: 2px solid #720000;
-    color: #720000;
-    font-size: 16px;
-    line-height: 1.45;
-    font-weight: 700;
-}
 
 .left-to-right .list-menu-down {
     display: none;
 }
-
-.left-to-right .list-menu-down li a {
+.left-to-right .list-menu-down ul li a {
+    text-indent: 10px;
+}
+.left-to-right ul li  {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.left-to-right ul li  a {
+    text-decoration: none;
     color: black;
 }
-
-.left-to-right ul li a {
-    text-decoration: none;
-    color: #720000;
-}
-
-.left-to-right ul li {
+.left-to-right>ul>li {
     padding: 10px 0px;
     border-bottom: 2px solid #720000;
     text-decoration: none;
