@@ -851,11 +851,11 @@ h2,title h2 {
 }
 
 .left-to-right {
-    width: 200px;
+    width: 50%;
     height: 4550px;
     background-color: #fff;
     position: absolute;
-    transform: translateX(-200px);
+    transform: translateX(-100%);
     transition: 0.4s;
     z-index: 999;
 }
@@ -866,8 +866,9 @@ h2,title h2 {
 }
 
 .left-to-right .close {
-    transform: translateX(150px);
+    transform: translateX(90%);
     font-size: 24px;
+    cursor: pointer;
 }
 
 .to-right {
@@ -884,10 +885,11 @@ h2,title h2 {
 .left-to-right ul li  {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.45;
     font-weight: 700;
-    padding: 10px 0px;
+    padding: 10px 10px;
+    
 }
 .left-to-right ul li  a {
     text-decoration: none;
